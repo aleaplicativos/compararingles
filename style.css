@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Garantir que o corpo ocupe a altura total da tela */
+  margin: 0;
+  padding-top: 20px; /* Adicionar espaçamento superior */
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%; /* Ajustar largura para dispositivos móveis */
+  max-width: 400px; /* Limitar a largura máxima */
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px; /* Adicionar margem inferior */
+}
+
+.produto {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+button:last-of-type {
+  background-color: #ffc107;
+}
+
+button:last-of-type:hover {
+  background-color: #e0a800;
+}
+
+.verde {
+  background-color: #198754; /* Verde mais intenso */
+}
+
+.vermelho {
+  background-color: #dc3545; /* Vermelho mais vivo */
+}
+
+#mensagem {
+  color: red;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
